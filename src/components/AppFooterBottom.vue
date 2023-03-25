@@ -8,6 +8,8 @@ export default {
 }
 </script>
 
-<template></template>
+<template>
+    bottom
+</template>
 
 <style lang="scss" scoped></style>

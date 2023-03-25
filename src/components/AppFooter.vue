@@ -18,9 +18,13 @@ export default {
 </script>
 
 <template>
-    <AppFooterTop></AppFooterTop>
-    <AppFooterCenter></AppFooterCenter>
-    <AppFooterBottom></AppFooterBottom>
+    <footer>
+
+        <AppFooterTop></AppFooterTop>
+        <AppFooterCenter></AppFooterCenter>
+        <AppFooterBottom></AppFooterBottom>
+
+    </footer>
 </template>
 
 <style lang="scss" scoped></style>
