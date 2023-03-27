@@ -28,12 +28,16 @@ export default {
 
     .img-container {
         border: 1px solid white;
-        width: 100%;
-        height: 100%;
+        height: 190px;
+        width: 190px;
+
+        overflow: hidden;
+
 
         img {
             width: 100%;
-            height: 100%;
+            object-fit: contain;
+
         }
 
     }
