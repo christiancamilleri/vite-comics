@@ -20,6 +20,7 @@ export default {
     methods: {
         changeActiveIndex(index) {
             this.activeIndex = index;
+
         }
     }
 }
@@ -40,6 +41,7 @@ export default {
                         @click="changeActiveIndex(index)">{{ link }}</li>
 
                 </ul>
+
 
             </div>
 
@@ -91,6 +93,7 @@ header {
                 border-bottom: 5px solid #1282f9;
                 border-top: 5px solid white;
             }
+
 
         }
     }
